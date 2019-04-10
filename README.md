@@ -3,6 +3,8 @@ more-info-card
 
 Display the more-info dialog of any entity as a lovelace card.
 
+![more-info-card2](https://user-images.githubusercontent.com/1299821/55866774-56ff6e00-5b81-11e9-857d-e3a6edc17020.jpg)
+
 # Installation instructions
 
 This card requires [card-tools](https://github.com/thomasloven/lovelace-card-tools) to be installed.

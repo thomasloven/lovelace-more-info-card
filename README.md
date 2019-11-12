@@ -1,44 +1,34 @@
 more-info-card
 ==============
 
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/custom-components/hacs)
+
 Display the more-info dialog of any entity as a lovelace card.
 
 ![more-info-card2](https://user-images.githubusercontent.com/1299821/55866774-56ff6e00-5b81-11e9-857d-e3a6edc17020.jpg)
 
-# Installation instructions
-
-This card requires [card-tools](https://github.com/thomasloven/lovelace-card-tools) to be installed.
-
 For installation instructions [see this guide](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins).
 
-The recommended type of this plugin is: `js`
+Install `more-info-card.js` as a `module`.
 
-### If you are using [custom\_updater](https://github.com/custom-components/custom_updater):
 ```yaml
 resources:
-- url: /customcards/github/thomasloven/card-tools.js
-  type: js
-- url: /customcards/github/thomasloven/more-info-card.js
-  type: js
+  - url: /local/more-info-card.js
+    type: module
 ```
 
-# Usage instructions
-
+## Usage
 ```yaml
 type: custom:more-info-card
 entity: <entity_id>
 title: <title>
 ```
 
-### `<entity_id>`
-The entity to display
-
-### `<title>`
-Card title
-
+## Options
+- `<entity_id>` **Required** The entity id to display.
+- `<title>` Card title.
 
 ## Example
-
 ```
 type: custom:more-info-card
 entity: vacuum.xiaomi_vacuum_cleaner

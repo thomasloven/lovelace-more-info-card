@@ -9,14 +9,6 @@ Display the more-info dialog of any entity as a lovelace card.
 
 For installation instructions [see this guide](https://github.com/thomasloven/hass-config/wiki/Lovelace-Plugins).
 
-Install `more-info-card.js` as a `module`.
-
-```yaml
-resources:
-  - url: /local/more-info-card.js
-    type: module
-```
-
 ## Usage
 ```yaml
 type: custom:more-info-card

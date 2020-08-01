@@ -1,0 +1,13 @@
+title: badge-card
+views:
+  - title: Standard
+    cards:
+      - type: custom:more-info-card
+        entity: light.bed_light
+      - type: custom:more-info-card
+        entity: light.bed_light
+        title: Custom title
+      - type: custom:more-info-card
+        entity: input_number.test
+      - type: custom:more-info-card
+        entity: light.no_light

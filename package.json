@@ -1,11 +1,12 @@
 {
   "name": "more-info-card",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "private": true,
   "scripts": {
     "build": "webpack",
-    "watch": "webpack --watch --mode=development"
+    "watch": "webpack --watch --mode=development",
+    "update-card-tools": "npm uninstall card-tools && npm install thomasloven/lovelace-card-tools"
   },
   "author": "Thomas Lovén",
   "license": "MIT",

@@ -8,9 +8,13 @@ lovelace:
     lovelace-yaml:
       mode: yaml
       title: yaml
-      filename: lovelace.yaml
+      filename: test/lovelace.yaml
 
 input_number:
   test:
     min: 0
     max: 10
+
+timer:
+  test:
+    duration: "00:01:00"

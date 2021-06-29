@@ -5,9 +5,35 @@ views:
       - type: custom:more-info-card
         entity: light.bed_light
       - type: custom:more-info-card
+        entity: climate.ecobee
+      - type: custom:more-info-card
         entity: light.bed_light
         title: Custom title
       - type: custom:more-info-card
         entity: input_number.test
       - type: custom:more-info-card
         entity: light.no_light
+
+      - type: picture-elements
+        image: https://placekitten.com/g/800/600
+        elements:
+          - type: state-label
+            entity: timer.test
+            style:
+              top: 50%
+              left: 50%
+          - type: state-badge
+            entity: timer.test
+            style:
+              top: 75%
+              left: 50%
+          - type: state-icon
+            entity: switch.ac
+            style:
+              top: 25%
+              left: 50%
+          - type: state-icon
+            entity: light.bed_light
+            style:
+              top: 25%
+              left: 25%
